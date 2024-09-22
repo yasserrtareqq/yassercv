@@ -1,49 +1,68 @@
-body {
-    font-family: Arial, sans-serif;
+/* Resetting some default browser styles */
+* {
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+    color: #333;
+    padding: 20px;
 }
 
 .container {
-    width: 80%;
-    margin: auto;
-    background: white;
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.container:hover {
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
 
 header {
     text-align: center;
     padding-bottom: 20px;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 36px;
-    color: #333;
-}
-
-header p {
-    font-size: 18px;
-    color: #666;
-}
-
-section {
+    border-bottom: 2px solid #eee;
     margin-bottom: 20px;
 }
 
-section h2 {
+header h1 {
+    font-size: 36px;
     color: #333;
-    border-bottom: 2px solid #ddd;
+    letter-spacing: 1.5px;
+}
+
+header p {
+    font-size: 20px;
+    color: #777;
+    font-weight: 300;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    font-size: 24px;
+    color: #0056b3;
+    border-bottom: 2px solid #0056b3;
     padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
 }
 
 section p, section ul {
-    font-size: 16px;
-    color: #666;
-    line-height: 1.6;
+    font-size: 18px;
+    color: #555;
+    line-height: 1.8;
 }
 
 ul {
@@ -51,11 +70,36 @@ ul {
     padding-left: 20px;
 }
 
+ul li {
+    margin-bottom: 10px;
+}
+
 a {
-    color: #0066cc;
+    color: #0056b3;
     text-decoration: none;
+    font-weight: bold;
 }
 
 a:hover {
+    color: #003f7f;
     text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    background: #f1f1f1;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #666;
+}
+
+footer a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #003f7f;
 }
