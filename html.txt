@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Yasser Tareq Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Yasser Tareq Mahmoud</h1>
+            <p>Graphic & UI/UX Designer</p>
+        </header>
+
+        <section>
+            <h2>Basic Info</h2>
+            <p>Location: Hadayk El-kobba, Cairo</p>
+            <p>Date of Birth: September 1996 (27y)</p>
+        </section>
+
+        <section>
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:yasser.tareq00@gmail.com">yasser.tareq00@gmail.com</a></p>
+            <p>Phone: +20 127 5512 839</p>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+            <p>Bachelor's Degree of Agriculture - University of Ain Shams (2014 - 2018)</p>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+            <p>Adobe Photoshop, Adobe Illustrator, Adobe InDesign, Adobe Premiere, Adobe XD, Figma, HTML, CSS, WordPress, Shopify</p>
+        </section>
+
+        <section>
+            <h2>Languages</h2>
+            <p>Arabic (Native), English (Very Good)</p>
+        </section>
+
+        <section>
+            <h2>Experience</h2>
+            <p><strong>Graphic and UX Designer - ALHASOOB (Remote)</strong> - 4/2023 - Present</p>
+            <p><strong>Graphic and Website UI Designer - ECOMblacker (On-site)</strong> - 10/2021 - 03/2023</p>
+            <p><strong>Graphic Designer - Lab Supply (On-site)</strong> - 03/2020 - 09/2021</p>
+        </section>
+
+        <section>
+            <h2>Projects</h2>
+            <ul>
+                <li>Website: eCommerce, landing page, business website, personal website, event</li>
+                <li>Applications: Kid-friendly, task management, utility app</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Portfolio</h2>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/yasser-tareq-1196031a1/">LinkedIn</a></li>
+                <li><a href="https://behance.net/yasserrtareqq">Behance</a></li>
+                <li><a href="https://dribbble.com/yasserrtareqq">Dribbble</a></li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
